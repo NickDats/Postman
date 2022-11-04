@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "9ee76f40-cf49-4b23-8a85-ac0ff4aba5e5",
+		"name": "HeadHunter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22369476"
+	},
+	"item": [
+		{
+			"name": "Нижний Новгород",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.hh.ru/metro/66",
+					"protocol": "https",
+					"host": [
+						"api",
+						"hh",
+						"ru"
+					],
+					"path": [
+						"metro",
+						"66"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "«Тестирование пользовательского интерфейса»",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.hh.ru/suggests/skill_set?text=тестирование пользовательского интерфейса",
+					"protocol": "http",
+					"host": [
+						"api",
+						"hh",
+						"ru"
+					],
+					"path": [
+						"suggests",
+						"skill_set"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "тестирование пользовательского интерфейса"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Универ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.hh.ru/educational_institutions/?id=39108",
+					"protocol": "https",
+					"host": [
+						"api",
+						"hh",
+						"ru"
+					],
+					"path": [
+						"educational_institutions",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "39108"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Лангуаге",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "PHPSESSID=r2t5uvjq435r4q7ib3vtdjq120",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.hh.ru/languages",
+					"protocol": "https",
+					"host": [
+						"api",
+						"hh",
+						"ru"
+					],
+					"path": [
+						"languages"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

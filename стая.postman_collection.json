@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "6dff343b-3222-4e66-babc-600d4dc4a21f",
+		"name": "стая",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22369476"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.staya.dog/v1/auth/password/recovery/request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "api.staya.dog"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1658317588512019729; _ym_d=1659138371; _ga=GA1.2.1121880898.1659138371; _gid=GA1.2.621226508.1659138371; _gat_UA-144089875-2=1; _fbp=fb.1.1659138371422.531042487; _ym_visorc=w; _ym_isad=2"
+					},
+					{
+						"key": "origin",
+						"value": "https://staya.dog"
+					},
+					{
+						"key": "referer",
+						"value": "https://staya.dog/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\".Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"103\", \"Chromium\";v=\"103\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\":\"ndatciuk@gmail.com\"}"
+				},
+				"url": {
+					"raw": "https://api.staya.dog/v1/auth/password/recovery/request",
+					"protocol": "https",
+					"host": [
+						"api",
+						"staya",
+						"dog"
+					],
+					"path": [
+						"v1",
+						"auth",
+						"password",
+						"recovery",
+						"request"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
